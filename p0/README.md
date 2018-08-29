@@ -144,3 +144,4 @@ configure some things. Run the following commands.
 * This will take quite a long time to run. Be patient.
 * `source ~/.cshrc.mine`
 * `opam install ocamlfind ounit utop dune`
+* `source ~/.cshrc.mine`
