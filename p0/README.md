@@ -104,14 +104,6 @@ Next, we will install some gems.
 If it hangs installing documentation for Sinatra, hit Ctrl-C. It will
 have successfully installed anyway.
 
-First we want to make sure that we have the correct version of OCaml. We'll be
-using version 4.04.0. Run  `ocaml -version` to see which version you have.
-
-If the version is not 4.04.0, then use `opam switch 4.04.0` Don't forget to run the
-advertised ``eval `opam config env` `` to update your PATH accordingly.
-
-Then run `ocaml -version` to make sure it says 4.04.0
-
 The OCaml package manager needs some initial configuration.
 
 * `opam init`
@@ -120,6 +112,14 @@ The OCaml package manager needs some initial configuration.
 * Open `~/.profile` (or the file mentioned above) in your text editor (probably emacs).
 * Add ``eval `opam config env` `` (these are **backticks** located to the left of the 1 key, not single quotes).
 * Save the file and run `source ~/.profile` (or the file mentioned above).
+
+We want to make sure that we have the correct version of OCaml. We'll be
+using version 4.04.0. Run  `ocaml -version` to see which version you have.
+
+If the version is not 4.04.0, then use `opam switch 4.04.0` Don't forget to run the
+advertised ``eval `opam config env` `` to update your PATH accordingly.
+
+Then run `ocaml -version` to make sure it says 4.04.0
 
 Next, we will install the required OCaml packages through OPAM.
 
