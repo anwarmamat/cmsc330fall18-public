@@ -93,12 +93,7 @@ These instructions will assume you have a Debian-based system. This includes
 distributions like Ubuntu. If you have a different distribution, use the
 native package manager.
 
-We will first add the OCaml package archive.
-
-* `sudo add-apt-repository ppa:avsm/ppa`
-* `sudo apt-get update`
-
-Next we will install all the packages we need.
+We will install all the packages we need.
 
 * `sudo apt-get install ruby-dev sqlite3 libsqlite3-dev ocaml ocaml-native-compilers camlp4 opam make m4 curl graphviz default-jre`
 
@@ -142,6 +137,6 @@ configure some things. Run the following commands.
 
 * `curl https://raw.githubusercontent.com/anwarmamat/cmsc330fall18-public/master/p0/cmsc330-init.sh | csh`
 * This will take quite a long time to run. Be patient.
-* `source ~/.cshrc.mine`
+* ``eval `opam config env` ``
 * `opam install ocamlfind ounit utop dune`
-* `source ~/.cshrc.mine`
+* Log out and log back in. Everything should work now!
