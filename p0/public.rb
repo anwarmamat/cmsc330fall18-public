@@ -15,7 +15,7 @@ OCAML_VERSION = "4.04.0"
 class PublicTests < Minitest::Test
 	def test_public_ocaml
 		assert(ocaml_version, not_installed("OCaml"))
-		assert_equal(ocaml_version, OCAML_VERSION, wrong_version("OCaml"))
+		assert_equal(OCAML_VERSION, ocaml_version, wrong_version("OCaml"))
 	end
 
 	def test_public_opam
