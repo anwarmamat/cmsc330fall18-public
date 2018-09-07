@@ -66,9 +66,11 @@ while true do
             end
         when :lca
             if result == nil 
-                puts "Lca: No least common ancestor"
+                puts "Lca: At least one ID not present in graph"
+            elsif result == []
+                puts "Lca: No common ancestor"
             else 
-                puts "Least common ancestor: "
+                puts "Lca result: "
                 puts result
             end
         end
