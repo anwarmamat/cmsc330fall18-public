@@ -6,7 +6,7 @@ let pyth a b c = failwith "unimplemented"
 
 let rec gcd a b = failwith "unimplemented"
 
-let rec reduced_form numer denom = failwith "unimplemented"
+let reduced_form numer denom = failwith "unimplemented"
 
 let rec cubes n = failwith "unimplemented"
 
