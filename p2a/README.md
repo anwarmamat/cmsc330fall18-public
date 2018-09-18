@@ -95,7 +95,7 @@ max_first_three [1; 1; 1; 7] = 1
 ```
 
 #### count_occ lst target
-- **Type**: `int list -> int -> int`
+- **Type**: `'a list -> 'a -> int`
 - **Description**: Returns the number of occurrences of `target` in `lst`
 - **Examples:**
 ```
