@@ -26,7 +26,7 @@ Implement the following functions that do not require knowledge of lists. The fi
 
 #### pyth a b c
 - **Type**: `int -> int -> int -> bool`
-- **Description**: Returns true if `a`, `b`, and `c` are positive integers and satisfy the [Pythagorean Theorem][Pythagorean Theorem], false otherwise.
+- **Description**: Returns true if `a`, `b`, and `c` satisfy the [Pythagorean Theorem][Pythagorean Theorem], false otherwise. You may assume the inputs are in ascending order.
 - **Examples:**
 ```
 pyth 3 4 5 = true
@@ -48,7 +48,7 @@ gcd 0 0 = 0
 
 #### reduced_form numer denom
 - **Type**: `int -> int -> int * int`
-- **Description**: Returns the given fraction, as a tuple, in simplest reduced form. Assume denom > 0. (Hint: Use `gcd`.)
+- **Description**: Returns the given fraction, as a tuple, in simplest reduced form. Assume `denom` > 0. (Hint: Use `gcd`.)
 - **Examples:**
 ```
 reduced_form 14 10 = (7, 5)
