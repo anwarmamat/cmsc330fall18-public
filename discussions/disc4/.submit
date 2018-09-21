@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course CMSC330
+#  Project D4: Discussion 4
+
+courseName=CMSC330
+semester=201808
+projectNumber=D4
+courseKey=dd9b24fcd430c153
+authentication.type=ldap
+baseURL=https://submit.cs.umd.edu:443/fall2018
+submitURL=https://submit.cs.umd.edu:443/fall2018/eclipse/SubmitProjectViaEclipse
