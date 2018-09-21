@@ -51,7 +51,8 @@ let sum_list_list (l : int list list) : int =
 let my_map (f : 'a -> 'b) (l : 'a list) : 'b list =
   failwith "unimplemented"
 
-(* Similar to foldr except it returns all intermediate accumulators instead
-   of just the last one (including the first one). *)
+(* OPTIONAL: Similar to foldr except it returns all intermediate
+   accumulators instead of just the last one (including the first one).
+   This one is tested locally, but not on the submit server. Try it! *)
 let my_scanr (f : 'a -> 'b -> 'b) (l : 'a list) (acc : 'b) : 'b list =
   failwith "unimplemented"
