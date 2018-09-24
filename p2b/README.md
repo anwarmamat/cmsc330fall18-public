@@ -36,7 +36,7 @@ count_occ [1; 2; 2; 1; 3] 1 = 2
 
 #### uniq lst
 - **Type**: `'a list -> 'a list`
-- **Description**: Given a list, returns a list with all duplicate elements removed.
+- **Description**: Given a list, returns a list with all duplicate elements removed. May be returned in any order.
 - **Examples:**
 ```
 uniq [] = []
@@ -46,7 +46,7 @@ uniq [1; 2; 2; 1; 3] = [2; 1; 3]
 
 #### assoc_list lst
 - **Type**: `'a list -> ('a * int) list`
-- **Description**: Given a list, returns a list of pairs where the first integer represents the element of the list and the second integer represents the number of occurrences of that element in the list. This associative list should not contain duplicates.
+- **Description**: Given a list, returns a list of pairs where the first integer represents the element of the list and the second integer represents the number of occurrences of that element in the list. This associative list should not contain duplicates and may be returned in any order.
 - **Examples:**
 ```
 assoc_list [] = []
