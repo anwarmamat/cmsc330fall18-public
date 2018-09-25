@@ -18,6 +18,10 @@ invalid_arg "something went wrong"
 ```
 Use the error message that the function specifies as the argument. 
 
+You can run the tests by doing `dune runtest -f`. We recommend you write student tests in `test/student.ml`.
+
+You can run your own tests by doing `dune utop src` (assuming you have `utop`). Then after doing `open P2b.Higher` and `open P2b.Data` you should be able to use any of the functions.
+
 ## Part 1: High Order Functions
 Write the following functions in `higher.ml` using `map`, `fold`, or `fold_right` as defined in the file `funs.ml`. Do not modify `funs.ml`, your changes will not be reflected on the submit server. You **must** use `map`, `fold`, or `fold_right` to complete these functions, so no functions in `higher.ml` should be defined using the `rec` keyword. You will lose points if this rule is not followed. Use the other provided functions in `funs.ml` to make completing the functions easier. 
 
