@@ -266,8 +266,6 @@ Also, note that all the binary operators are **right associative**.
 ## Project Submission
 You should submit the files `nfa.ml` and `regexp.ml` containing your solution. You may submit other files, but they will be ignored during grading. We will run your solution as individual OUnit tests just as in the provided public test file.
 
-** If you submit your entire directory ENSURE you do `make clean` before submitting or it will not compile **
-
 Be sure to follow the project description exactly! Your solution will be graded automatically, so any deviation from the specification will result in lost points.
 
 You can submit your project in two ways:
