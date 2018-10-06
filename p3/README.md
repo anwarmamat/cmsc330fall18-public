@@ -163,7 +163,7 @@ even started writing some tests for you in `test/student.ml`!
 * **Description:** Given an NFA and a list of states from that NFA (a single state in the DFA) computes all the DFA states that you can get to from a transition out of `qs` (including the dead state). You can return the list in any order with or without duplicates.
 * **Examples:**
 ```
-new_states m [0] = [[1]; []; []]
+new_states n [0] = [[1]; []; []]
 new_states n [0; 1] = [[1]; [0]; [2]]
 ```
 
