@@ -16,4 +16,6 @@ val regexp_to_string : regexp_t -> string
 val string_to_regexp : string -> regexp_t
 val string_to_nfa : string -> (int, char) Nfa.nfa_t
 
+val regexp_pp : Format.formatter -> regexp_t -> unit
+
 exception IllegalExpression of string
