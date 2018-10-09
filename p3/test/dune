@@ -1,9 +1,10 @@
 (executables
-  (names public student)
-  (libraries p3 oUnit))
+  (names public student properties)
+  (libraries p3 qcheck oUnit))
 
 (alias
   (name runtest)
   (action
     (progn (run ./public.bc)
-           (run ./student.bc))))
+           (run ./student.bc)
+           (run ./properties.bc))))
