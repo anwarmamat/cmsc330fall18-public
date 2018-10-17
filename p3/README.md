@@ -135,7 +135,7 @@ e_closure m [0;1] = [0;1;2]
 * **Description:** This function takes an NFA and a string, and returns true if the NFA accepts the string, and false otherwise. You will find the functions in the [`String` module][string doc] to be helpful. (Hint: You should implement this function without using `nfa_to_dfa`.)
 * **Examples:**
 ```
-accept n "" = false  (* n is the NFA defined above *)
+accept n "" = false  (* n is the DFA defined above *)
 accept n "ac" = true
 accept n "abc" = false
 accept n "abac" = true
