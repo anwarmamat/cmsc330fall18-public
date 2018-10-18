@@ -1,4 +1,4 @@
 (library
-  (name lecture)
+  (name cfgs)
   (modules lexer parser)
   (libraries str))
