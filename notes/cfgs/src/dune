@@ -1,0 +1,4 @@
+(library
+  (name lecture)
+  (modules lexer parser)
+  (libraries str))
