@@ -1,5 +1,14 @@
 open Lexer
 
+(*
+
+    Grammar:
+
+    S -> E + S | E
+    E -> n | (S)
+
+*)
+
 (* Types *)
 
 type expr =
