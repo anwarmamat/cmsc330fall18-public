@@ -2,7 +2,7 @@
 
 Due: November 6th (Late November 7th) at 11:59:59 PM
 
-Points: 48P/52R/30S
+Points: 48P/52R
 
 ## Introduction
 In this project, you will implement the lexer and parser for SmallC, which is the input language of the interpreter you will write in project 4B. This parser will be capable of parsing expressions, statements, and full programs, thus making it a complete replacement for the parser we supplied for the interpreter project. The parser will operate on a flat `token list` assembled by your lexer and create a correct `stmt` and/or `expr` corresponding to the input. When you're done, you will have written the complete pipeline to turn a text file into a running SmallC program!
