@@ -67,7 +67,7 @@ Keep in mind that Rust Vectors, Slices and Arrays cannot be matched in the same 
 
 
 **get_course_data**
-* **Type:** `fn get_high_scorers(csv_data: &str) -> (HashMap<&str,usize>,HashMap<&str,usize>,HashMap<&str,usize>) `
+* **Type:** `fn get_course_data(csv_data: &str) -> (HashMap<&str,usize>,HashMap<&str,usize>,HashMap<&str,usize>) `
 * **Description:** We have a CSV of course information.  The CSV has many lines that are formatted as "<Deptartment>,<CourseNumber>,<RoomNumber>,<DaysOfWeek>".  A str containing all of the CSV file, Calculate the number of courses being offered in each department, in each room, and at each time.  Write the function get_course_data that does these calculations, and stores the results in three hashes that map departments, rooms, and times to number of occurrences.  Return these hashes in a tuple.
 
 If the data file looks like this:
