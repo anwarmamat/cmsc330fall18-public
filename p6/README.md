@@ -75,7 +75,7 @@ Keeping passwords safe is critical for any application. Unfortunately, our appli
 2. Modify the application to utilize hashing and salting. You must store the hash in the password column, using the `Digest::SHA256.hexdigest` function, computing your hashes by concatenating the plaintext password and salt together (in that order).
 3. Migrate your existing users so their passwords are secure too.
 
-Below are some useful SQL commands. You can see [this SQL cheatsheet](http://cse.unl.edu/%7Esscott/ShowFiles/SQL/CheatSheet/SQLCheatSheet.html) for more commands.
+Below are some useful SQL commands. You can see [this SQL cheatsheet](http://cs.neiu.edu/~radler/cs415/SQLCheatSheet.html) for more commands.
 
 * `SELECT * FROM table;`
   * Description: Returns all records in a table.
