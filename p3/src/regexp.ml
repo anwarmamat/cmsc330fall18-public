@@ -26,7 +26,9 @@ let fresh =
 
 let regexp_to_nfa re = failwith "unimplemented"
 
-let regexp_to_string r = failwith "unimplemented"
+let regexp_to_string r = "example"
+
+let regexp_pp f s = Format.pp_print_text f (regexp_to_string s)
 
 (*****************************************************************)
 (* Below this point is parser code that YOU DO NOT NEED TO TOUCH *)
